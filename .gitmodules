@@ -1,0 +1,6 @@
+[submodule "typebackend"]
+	path = typebackend
+	url = git@github.com:ThejasKiranPS/typebackend.git
+[submodule "demo"]
+	path = demo
+	url = git@github.com:pranavmadhu01/demo.git
