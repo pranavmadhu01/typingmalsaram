@@ -1,0 +1,38 @@
+.singleuserdisplay_wrapper {
+  width: 700px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+.singleuserdisplay_wrapper:nth-child(1) {
+  color: green;
+}
+.singleuserdisplay_wrapper:nth-child(2) {
+  color: goldenrod;
+}
+.singleuserdisplay_wrapper:nth-child(3) {
+  color: rgb(174, 0, 0);
+}
+.user_name {
+  width: 150px;
+}
+.singleuserdisplay_progress_wrapper {
+  display: flex;
+}
+.square_left {
+  flex: 0;
+}
+.dot_progress_wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.user_name, .dot_progress_wrapper {
+  flex-shrink: 0;
+  flex-grow: 0; 
+}
+.square_right {
+  flex: 0;
+}

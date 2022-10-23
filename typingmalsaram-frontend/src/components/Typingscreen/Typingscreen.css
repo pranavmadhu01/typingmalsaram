@@ -1,0 +1,23 @@
+.typingscreen_wrapper {
+  width: 100%;
+  padding-top: 20px;
+}
+.typingscreen_wrapper:focus {
+  border: none;
+  outline: none;
+}
+.typingscreen_wrapper > span {
+  font-size: 30px;
+}
+.red {
+  color: red;
+}
+.finished-text {
+  color: white;
+}
+.pending {
+  color: gray;
+}
+.blocked {
+  color: rgb(73, 73, 73)
+}
