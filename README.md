@@ -4,6 +4,8 @@
 ```git clone git@github.com:pranavmadhu01/typingmalsaram.git```
 
 ## Run
+Ensure you are using nodejs version < 16.x.x (`node --version`)
+
 cd into both backend and frontend directory in separate terminals.
 do `npm i` & `npm start` in both directory.
 
